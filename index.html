@@ -25,6 +25,7 @@
 
         /* Fixed Navigation */
         .header {
+           
             position: fixed;
             width: 100%;
             top: 0;
@@ -56,17 +57,21 @@
 
         /* Hero Slider */
         .hero-slider {
+        
+            text-align: center;
             height: 70vh;
             position: relative;
-            margin-top: 70px;
+            margin-top: 100px;
         }
 
         .slide {
+        
             position: absolute;
             width: 100%;
             height: 100%;
             opacity: 0;
             transition: opacity 1s ease-in-out;
+            margin: auto;
         }
 
         .slide.active {
@@ -74,9 +79,13 @@
         }
 
         .slide img {
-            width: 100%;
+           background-position:center ;
+            width: 80%;
             height: 100%;
             object-fit: cover;
+            border-radius: 20%;
+           
+
         }
 
         /* Content Sections */
@@ -110,6 +119,7 @@
             height: 250px;
             object-fit: cover;
             transition: transform 0.3s;
+            border-radius: 20px;
         }
 
         /* Contact Section */
@@ -163,40 +173,69 @@
 </head>
 <body>
     <header class="header">
-        <div class="logo">YETEEM (YCDMF)</div>
+        <div class="logo">YETEEM</div>
         <nav class="nav-links">
             <a href="#home">Home</a>
             <a href="#about">About Us</a>
             <a href="#gallery">Gallery</a>
             <a href="#contact">Contact</a>
         </nav>
-        <button class="mobile-menu">☰</button>
+        <button class="mobile-menu">â˜°</button>
     </header>
 
     <section class="hero-slider" id="home">
         <div class="slide active">
-            <img src="slide1.jpg" alt="Community Support">
+            <img src="./slide1.jpg" alt="Community Support">
         </div>
         <div class="slide">
-            <img src="slide2.jpg" alt="Education Program">
+            <img src="./slide2.jpg" alt="Education Program">
         </div>
         <div class="slide">
-            <img src="slide1.jpg" alt="Medical Camp">
+            <img src="./slide3.jpg" alt="Medical Camp">
+        </div>
+
+         <div class="slide">
+            <img src="./slide4.jpg" alt="Medical Camp">
+        </div>
+         <div class="slide">
+            <img src="./slide5.jpg" alt="Medical Camp">
+        </div>
+         <div class="slide">
+            <img src="./slide6.jpg" alt="Medical Camp">
+        </div>
+         <div class="slide">
+            <img src="./slide7.jpg" alt="Medical Camp">
         </div>
     </section>
 
     <section class="section" id="about">
 
-   <h2>Preamble</h2>
-        <p>Yeteem Children and Destitute Mothers Fund (YCDMF) is a high profile Ethiopian Resident Humanitarian Charity founded in 1991under the laws of Ethiopia by a group of individuals tied together by a common vision of a country to mitigate the problems of people particularly vulnerable children and women in difficult circumstance of living. The organization has been re-registered by the Federal Agency for Civil Societies under the new law called Civil Society proclamation No. 1113/2019.</p>
 
+<h2>Preamble</h2>
+<p>
+Yeteem Children and Destitute Mothers Fund (YCDMF) is a high profile Ethiopian
+ Resident Humanitarian Charity founded in 1991under the laws of Ethiopia by 
+a group of individuals tied together by a common vision of a country to mitigate
+ the problems of people particularly vulnerable children and women in difficult
+ circumstance of living. The organization has been re-registered by the Federal
+ Agency for Civil Societies under the new law called Civil Society proclamation No. 1113/2019. 
+</p>
 
         <h2>About YETEEM</h2>
-        <p>YCDMF has a General Assembly to oversee and deal with all policy issues. It also has a Board of Directors of five members with the responsibility of the overall guidance and supervision of the functioning of the organization. There is a management committee consisting administration and program staff chaired by Executive Director of the organization to execute programs/projects as well as the day-to-day administrative and managerial matters.</p>
-<br/>
 
-        <h2>Organizational Principle and Values</h2>
-        <p>Principle: In our human relationship, as an organization as well as individual staff members we uphold the golden rule, Raising a healthy next generation is every one's responsibility as an overriding maxim.</p>
+        <p>YCDMF has a General Assembly to oversee and deal with all policy issues. 
+It also has a Board of Directors of five members with the responsibility of the overall
+ guidance and supervision of the functioning of the organization. 
+There is a management committee consisting administration and program 
+staff chaired by Executive Director of the organization to execute 
+programs/projects as well as the day-to-day administrative and managerial matters.</p>
+
+ <h2>Organizational Principle and Values</h2>
+        <p>Principle: In our human relationship, as an organization as well 
+as individual staff members we uphold the golden rule, “Raising a healthy next
+ generation is every one's responsibility"as an overriding maxim.</p>
+
+
     </section>
 
     <section class="section" id="gallery">
@@ -204,22 +243,16 @@
         <div class="gallery-grid">
             <div class="gallery-item">
                 <img src="slide1.jpg" alt="Education Program">
-                <h3>Computer training program in Addis Ababa</h3>
+                <h3>Education Program</h3>
             </div>
             <div class="gallery-item">
                 <img src="slide2.jpg" alt="Medical Camp">
-                <h3>Technical and Vocational Training for unemployed youths in Addis Ababa<h3>
+                <h3>Medical Camp<h3>
             </div>
             <div class="gallery-item">
-                <img src="slide3.jpg" alt="Community Workshop">
-                <h3>Sewing and Embroidery training in Addis Ababa And Afar Region</h3>
+                <img src="slide1.jpg" alt="Community Workshop">
+                <h3>Community Workship</h3>
             </div>
-
-             <div class="gallery-item">
-                <img src="slide4.jpg" alt="Community Workshop">
-                <h3>Food security program in Afar region</h3>
-            </div>
-
         </div>
     </section>
 
